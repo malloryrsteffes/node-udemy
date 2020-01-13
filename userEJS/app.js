@@ -7,6 +7,7 @@ const app = express();
 
 // Routes will look for the view engine for their render methods
 app.set("view engine", "ejs");
+app.set("views", "views");
 
 // Brings in the routes
 const adminRoutes = require("./routes/admin");
